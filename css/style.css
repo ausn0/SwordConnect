@@ -237,4 +237,10 @@ div > img{
     margin-top: 10px;
     grid-column: 1/4;    
 }
+.contact-text{
+    grid-column: 1 /4;
+}
+#contactover{
+    grid-column:1/4;
+}
 }
