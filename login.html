@@ -16,16 +16,30 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="team.html">Our Team</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a class="current" href="login.html">Login</a></li>
                 </ul>
             </nav>
         </header>
-        <main class ="container" id="main">
-            <div class="overview">
+        <main class ="container" id="mainLog">
+            <div class="overviewLog">
                 <h1>SwordConnect</h1>
                 <p>We bring your swords together.</p>
             </div>
+            <div class="login-box">
+                <h2>Login</h2>
+                <form>
+                  <label for="username">Username:</label>
+                  <input type="text" id="username" name="username" placeholder="Enter your username">
+              
+                  <label for="password">Password:</label>
+                  <input type="password" id="password" name="password" placeholder="Enter your password">
+              
+                  <button type="submit">Log in</button>
+                </form>
+              </div>
         </main>
-
+        <footer>
+            <p>SwordConnect LLC, 2023</p>
+          </footer>
     </body>
 </html>
